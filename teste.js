@@ -165,7 +165,7 @@ function AC_Generateobj(objAttrs, params, embedAttrs)
             str += '><param name="' + i + '" value="' + params[i] + '" /> ';
         str += '></object>';
     } else {
-        str += '<embed style="display:none;" ';
+        str += '<embed ';
         for (var i in embedAttrs)
             str += i + '="' + embedAttrs[i] + '" ';
         str += '> </embed>';
