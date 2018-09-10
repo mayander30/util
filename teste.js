@@ -267,4 +267,3 @@ function AC_GetArgs(args, ext, srcParamName, classid, mimeType){
 }
 
 AC_FL_RunContent();
-alert('E OS GURI');
